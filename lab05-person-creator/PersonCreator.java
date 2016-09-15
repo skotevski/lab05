@@ -22,10 +22,11 @@ public class PersonCreator
     ///////////////////////////////////////////////////
     //Constructor to construct the objects within the class PersonCreator and initialize them with certain values
 
-    public PersonCreator ()
+    public PersonCreator (String firstName, String lastName)
     {
-        
+        Name = firstName + lastName;
     }
+    
     public void age()
     {
         age = 0;

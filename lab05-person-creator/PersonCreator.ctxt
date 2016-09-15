@@ -1,6 +1,6 @@
 #BlueJ class context
-comment0.params=
-comment0.target=PersonCreator()
+comment0.params=firstName\ lastName
+comment0.target=PersonCreator(java.lang.String,\ java.lang.String)
 comment1.params=
 comment1.target=void\ age()
 comment10.params=s
