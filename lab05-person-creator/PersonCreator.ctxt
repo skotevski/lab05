@@ -1,2 +1,47 @@
 #BlueJ class context
-numComments=0
+comment0.params=firstName\ lastName
+comment0.target=PersonCreator(java.lang.String,\ java.lang.String)
+comment1.params=
+comment1.target=int\ getAge()
+comment10.params=s
+comment10.target=void\ setSex(java.lang.String)
+comment10.text=\r\n\ Description\:\ This\ method\ will\ assign\ a\ sex\ to\ the\ person.\ \r\n\ Input\:\ It\ takes\ in\ one\ parameter\ of\ s\ of\ type\ String\ that\ will\ be\ used\ to\ set\ the\ sex\ of\ the\ person.\ (This\ value\ must\ either\ be\ male\ or\ female)\r\n\ Output\:\ It\ has\ a\ return\ value\ of\ void,\ because\ it\ does\ not\ need\ to\ return\ anything,\ as\ it\ is\ simply\ assigning\ a\ field\ variable\ to\ a\ value\ that\ the\ user\ must\ input.\r\n\ Example\:\ sex\ \=\ male\r\n
+comment11.params=h
+comment11.target=void\ setheight(int)
+comment11.text=\r\n\ Description\:\ This\ method\ will\ assign\ a\ height\ (in\ inches)\ to\ the\ person.\r\n\ Input\:\ It\ takes\ in\ one\ parameter\ of\ h\ of\ type\ int\ that\ will\ be\ used\ to\ determine\ how\ tall\ the\ person\ would\ be.\r\n\ Output\:\ It\ has\ a\ return\ value\ of\ void,\ because\ it\ does\ not\ need\ to\ return\ anything,\ since\ its\ only\ assigning\ a\ field\ variable\ to\ a\ value\ that\ the\ user\ must\ input.\r\n\ Example\:\ height\ \=\ 72\r\n
+comment12.params=w
+comment12.target=void\ setweight(int)
+comment12.text=\r\n\ Description\:\ This\ method\ will\ assign\ a\ weight\ (in\ pounds)\ to\ the\ person.\r\n\ Input\:\ It\ takes\ in\ one\ parameter\ of\ w\ of\ type\ int\ that\ will\ be\ used\ to\ determine\ how\ much\ the\ person\ weighs.\r\n\ Output\:\ It\ has\ a\ return\ value\ of\ void,\ because\ it\ doesn't\ need\ to\ return\ anything\ because\ it\ is\ only\ assigning\ a\ field\ variable\ to\ a\ value\ that\ the\ user\ has\ to\ input.\r\n\ Example\:\ weight\ \=\ 150\ \r\n
+comment13.params=ssn1\ ssn2\ ssn3
+comment13.target=void\ setsocialSecurityNumber(int,\ int,\ int)
+comment13.text=\r\n\ Description\:\ This\ method\ will\ assign\ a\ Social\ Security\ Number\ to\ the\ person.\r\n\ Input\:\ It\ takes\ in\ 3\ parameters\ of\ ssn1,\ ssn2,\ and\ ssn3.\ They\ are\ all\ of\ type\ int,\ however\ the\ Social\ Security\ Number\ is\ of\ type\ String.\ This\ is\ all\ used\ to\ determine\ the\ overall\ Social\ Security\ Number.\r\n\ Output\:\ It\ has\ a\ return\ value\ of\ void,\ because\ it\ does\ not\ need\ to\ return\ anything\ since\ it\ is\ only\ assigning\ a\ field\ variable\ to\ certain\ values\ that\ a\ user\ must\ input.\r\n\ Example\:\ socialsecuritynumber\ \=\ 123-45-6789\r\n
+comment14.params=ad
+comment14.target=void\ setAddress(java.lang.String)
+comment14.text=\r\n\ Description\:\ This\ method\ will\ assign\ an\ address\ to\ the\ person.\r\n\ Input\:\ It\ takes\ in\ one\ parameter\ of\ ad\ of\ type\ String,\ and\ uses\ it\ to\ assign\ the\ address\ to\ the\ person\ that\ was\ created.\r\n\ Output\:\ It\ has\ a\ return\ value\ of\ void,\ because\ it\ does\ not\ need\ to\ return\ anything\ becayse\ it\ is\ only\ assigning\ a\ field\ variable\ to\ a\ value\ that\ the\ user\ has\ to\ input.\r\n\ Example\:\ address\ \=\ 3123\ 45th\ st\r\n
+comment15.params=pn1\ pn2\ pn3
+comment15.target=void\ setPhonenumber(int,\ int,\ int)
+comment15.text=\r\n\ Description\:\ This\ method\ will\ assign\ a\ phone\ number\ to\ the\ person.\r\n\ Input\:\ It\ takes\ in\ three\ parameters\ of\ pn1,\ pn2,\ and\ pn3.\ They\ are\ all\ of\ type\ int,\ however\ the\ phone\ number\ as\ a\ whole\ is\ of\ type\ String.\ This\ is\ all\ used\ to\ determine\ the\ phone\ number\ for\ the\ person.\r\n\ Output\:\ It\ has\ a\ return\ value\ of\ void,\ because\ it\ doesn't\ need\ to\ return\ anything\ since\ it\ is\ only\ assigning\ a\ field\ variable\ to\ a\ value\ that\ the\ user\ inputs.\r\n\ Example\:\ phoneNumber\ \=\ 123-456-7890\r\n
+comment16.params=dob1\ dob2\ dob3
+comment16.target=void\ setDateofbirth(int,\ int,\ int)
+comment16.text=\r\n\ Description\:\ This\ method\ will\ assign\ a\ birthday\ to\ the\ person.\r\n\ Input\:\ It\ takes\ in\ three\ parameters\ of\ dob1,\ dob2,\ and\ dob3.\ They\ are\ all\ of\ type\ int,\ but\ the\ date\ of\ birth\ as\ a\ whole\ is\ of\ type\ String.\r\n\ Output\:\ It\ has\ a\ return\ value\ of\ void,\ because\ it\ does\ not\ have\ to\ return\ anything\ since\ it\ is\ only\ assigning\ a\ field\ variable\ to\ a\ value\ that\ the\ user\ inputs.\r\n\ Example\:\ Dateofbirth\ \=\ 10-10-1980\r\n
+comment17.params=
+comment17.target=void\ printPersonCreator()
+comment17.text=\r\n\ Description\:\ This\ method\ will\ print\ out\ the\ class\ PersonCreator\ with\ all\ of\ the\ variables\ that\ we\ assigned\ to\ it.\r\n\ Input\:\ It\ takes\ in\ one\ parameter\ of\ Name\ of\ type\ String.\r\n\ Output\:\ It\ has\ a\ return\ value\ of\ void\ because\ it\ does\ not\ have\ to\ return\ anything\ since\ it\ is\ only\ printing\ out\ the\ information\ of\ the\ Person\ \r\n
+comment2.params=
+comment2.target=java.lang.String\ getSex()
+comment3.params=
+comment3.target=int\ getHeight()
+comment4.params=
+comment4.target=int\ getWeight()
+comment5.params=
+comment5.target=java.lang.String\ getSSN()
+comment6.params=
+comment6.target=java.lang.String\ getAddress()
+comment7.params=
+comment7.target=java.lang.String\ getPhoneNumber()
+comment8.params=
+comment8.target=java.lang.String\ getDateOfBirth()
+comment9.params=a
+comment9.target=void\ setAge(int)
+comment9.text=\r\n\ Description\:\ This\ method\ will\ set\ the\ age\ of\ the\ person.\r\n\ Input\:\ It\ takes\ in\ one\ parameter\ of\ a\ of\ type\ int\ that\ will\ be\ used\ to\ set\ the\ age.\ (This\ value\ must\ also\ be\ between\ 0\ and\ 120)\r\n\ Output\:\ It\ has\ a\ return\ value\ of\ void,\ beacuse\ it\ does\ not\ need\ to\ return\ anything,\ it\ is\ simply\ assigning\ a\ field\ variable\ to\ a\ value\ that\ the\ user\ inputs.\r\n\ Example\:\ age\ \=\ 10\r\n
+numComments=18
