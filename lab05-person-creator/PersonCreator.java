@@ -10,10 +10,17 @@ public class PersonCreator
 
     private String Name;
     private int age;
+<<<<<<< HEAD
     private String sex;
     private int height;
     private int weight;
     private String ssn;
+=======
+    private String Sex;
+    private int height;
+    private int weight;
+    private String socialSecurityNumber;
+>>>>>>> 678f6ed409e2e85d425e874f5bdc1de076f20ace
     private String address;
     private String phoneNumber;
     private String dateOfBirth;
@@ -23,6 +30,7 @@ public class PersonCreator
 
     public PersonCreator (String firstName, String lastName)
     {
+<<<<<<< HEAD
         Name = firstName + " " + lastName;
         age = 0;
         sex = "male/female";
@@ -71,11 +79,52 @@ public class PersonCreator
     public String getDateOfBirth()
     {
         return dateOfBirth;
+=======
+        Name = firstName + lastName;
+    }
+    
+    public void age()
+    {
+        age = 0;
+    }
+
+    public void sex()
+    {
+        Sex = "male/female";
+    }
+
+    public void height()
+    {
+        height = 0;
+    }
+
+    public void weight()
+    {
+        weight = 0;
+    }
+
+    public void socialSecurityNumber()
+    {
+        socialSecurityNumber = "100-10-1000";
+    }
+
+    //*Not sure about adress*//
+
+    public void phoneNumber()
+    {
+        phoneNumber = "100-100-1000";
+    }
+
+    public void dateOfBirth()
+    {
+        dateOfBirth = "1-1-1000";
+>>>>>>> 678f6ed409e2e85d425e874f5bdc1de076f20ace
     }
 
     ///////////////////////////////////////////////////////////
     //Methods  
 
+<<<<<<< HEAD
     /*
      * Description: This method will set the age of the person.
      * Input: It takes in one parameter of a of type int that will be used to set the age. (This value must also be between 0 and 120)
@@ -85,12 +134,23 @@ public class PersonCreator
     public void setAge (int a)
     {
         if (a > 120 || a <0){
+=======
+    public void changeName (String firstName, String lastName)
+    {
+        String Name = firstName + lastName;
+    }
+
+    public void changeAge (int a)
+    {
+        if (a > 120 || a <1){
+>>>>>>> 678f6ed409e2e85d425e874f5bdc1de076f20ace
             System.err.println("please enter a valid age");
         } else{
             age = a;
         }
     }
 
+<<<<<<< HEAD
     /*
      * Description: This method will assign a sex to the person. 
      * Input: It takes in one parameter of s of type String that will be used to set the sex of the person. (This value must either be male or female)
@@ -101,10 +161,17 @@ public class PersonCreator
     {
         if (s == "male" || s == "female"){
             sex = s;
+=======
+    public void changeSex (String s)
+    {
+        if (s == "male" || s == "female"){
+            Sex = s;
+>>>>>>> 678f6ed409e2e85d425e874f5bdc1de076f20ace
         } else {
             System.err.println("please enter a valid sex");
         }
     }
+<<<<<<< HEAD
 
     /*
      * Description: This method will assign a height (in inches) to the person.
@@ -244,3 +311,7 @@ public class PersonCreator
 
     }
 }
+=======
+}
+
+>>>>>>> 678f6ed409e2e85d425e874f5bdc1de076f20ace

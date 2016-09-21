@@ -1,10 +1,19 @@
 #BlueJ package file
+<<<<<<< HEAD
 objectbench.height=100
 objectbench.width=658
 package.editor.height=400
 package.editor.width=560
 package.editor.x=90
 package.editor.y=100
+=======
+objectbench.height=76
+objectbench.width=839
+package.editor.height=455
+package.editor.width=741
+package.editor.x=0
+package.editor.y=57
+>>>>>>> 678f6ed409e2e85d425e874f5bdc1de076f20ace
 package.numDependencies=0
 package.numTargets=1
 package.showExtends=true
@@ -14,10 +23,17 @@ readme.editor.height=700
 readme.editor.width=900
 readme.editor.x=0
 readme.editor.y=23
+<<<<<<< HEAD
 target1.editor.height=744
 target1.editor.width=1382
 target1.editor.x=-8
 target1.editor.y=-8
+=======
+target1.editor.height=1040
+target1.editor.width=960
+target1.editor.x=960
+target1.editor.y=0
+>>>>>>> 678f6ed409e2e85d425e874f5bdc1de076f20ace
 target1.height=50
 target1.name=PersonCreator
 target1.naviview.expanded=true

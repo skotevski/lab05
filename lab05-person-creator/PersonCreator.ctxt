@@ -2,6 +2,7 @@
 comment0.params=firstName\ lastName
 comment0.target=PersonCreator(java.lang.String,\ java.lang.String)
 comment1.params=
+<<<<<<< HEAD
 comment1.target=int\ getAge()
 comment10.params=s
 comment10.target=void\ setSex(java.lang.String)
@@ -45,3 +46,25 @@ comment9.params=a
 comment9.target=void\ setAge(int)
 comment9.text=\r\n\ Description\:\ This\ method\ will\ set\ the\ age\ of\ the\ person.\r\n\ Input\:\ It\ takes\ in\ one\ parameter\ of\ a\ of\ type\ int\ that\ will\ be\ used\ to\ set\ the\ age.\ (This\ value\ must\ also\ be\ between\ 0\ and\ 120)\r\n\ Output\:\ It\ has\ a\ return\ value\ of\ void,\ beacuse\ it\ does\ not\ need\ to\ return\ anything,\ it\ is\ simply\ assigning\ a\ field\ variable\ to\ a\ value\ that\ the\ user\ inputs.\r\n\ Example\:\ age\ \=\ 10\r\n
 numComments=18
+=======
+comment1.target=void\ age()
+comment10.params=s
+comment10.target=void\ changeSex(java.lang.String)
+comment2.params=
+comment2.target=void\ sex()
+comment3.params=
+comment3.target=void\ height()
+comment4.params=
+comment4.target=void\ weight()
+comment5.params=
+comment5.target=void\ socialSecurityNumber()
+comment6.params=
+comment6.target=void\ phoneNumber()
+comment7.params=
+comment7.target=void\ dateOfBirth()
+comment8.params=firstName\ lastName
+comment8.target=void\ changeName(java.lang.String,\ java.lang.String)
+comment9.params=a
+comment9.target=void\ changeAge(int)
+numComments=11
+>>>>>>> 678f6ed409e2e85d425e874f5bdc1de076f20ace
